@@ -24,6 +24,9 @@
     desconto = 0.1
 
     print("Preco final: ", calcular_preco_final(preco, quantidade, desconto))
+
+
+    Python baseado em Pêrude e Ivan
 '''
 
 def calcular_preco_final(preco_unitario, quantidade, desconto): 
