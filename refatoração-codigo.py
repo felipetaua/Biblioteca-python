@@ -35,8 +35,7 @@ def calcular_preco_final(preco_unitario, quantidade, desconto):
     if desconto > 0:
         desconto_valor = total_bruto * (desconto / 100)
         total = total_bruto - desconto_valor
-    else:
-        total = total_bruto
+    total = total_bruto
     return total
 
 preco_produto = 10
